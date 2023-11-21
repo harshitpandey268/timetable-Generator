@@ -18,13 +18,13 @@ function Course(name, nick, slot) {
 }
 
 let schools = {
-	'SCS': new School('C', 'School of Chemical Sciences', []),
-	'SBS': new School('B', 'School of Biological Sciences', []),
-	'SPS': new School('P', 'School of Physical Sciences', []),
-	'SMS': new School('M', 'School of Mathematical Sciences', []),
-	'SCPS': new School('CS', 'School of Computer Sciences', []),
-	'SHSS': new School('H', 'School of Humanities and Social Sciences', []),
-	'CMRP': new School('R', 'Center for Medical and Radiation Physics', []),
+	'CSE-20': new School('C', 'CSE-20', []),
+	'CSE-21': new School('B', 'CSE-21', []),
+	'ECE-20': new School('P', 'ECE-20', []),
+	'ECE-21': new School('M', 'ECE-21', []),
+	'MCA-20': new School('CS', 'MCA-20', []),
+	'MCA-21': new School('H', 'MCA-21', []),
+	'CSE-22': new School('R', 'CSE-22', []),
 };
 
 let courses = {
